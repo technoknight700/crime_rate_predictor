@@ -1,0 +1,14 @@
+Flask
+Flask-Cors
+pandas
+numpy
+scikit-learn
+fuzzywuzzy
+python-Levenshtein
+geopandas
+shapely
+fiona
+pyproj
+rtree
+gunicorn
+

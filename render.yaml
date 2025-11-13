@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: foml-crime-backend
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      PYTHON_VERSION: 3.9
