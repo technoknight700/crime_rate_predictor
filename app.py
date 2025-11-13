@@ -14,9 +14,10 @@ import fiona  # ✅ Correct KML driver registration
 print("✅ This is the UPDATED version of app.py running now!")
 
 # --- Configuration ---
-COORDS_FILE = r'C:\Users\nitaa\Downloads\foml_crime_predictor\Police_Station_Coords.csv'
-HISTORY_FILE = r'C:\Users\nitaa\Downloads\foml_crime_predictor\mock_crime_history.csv'
-MUMBAI_BOUNDARY_FILE = r'C:\Users\nitaa\Downloads\foml_crime_predictor\mumbai-wards-map.kml'
+COORDS_FILE = "Police_Station_Coords.csv"
+HISTORY_FILE = "mock_crime_history.csv"
+MUMBAI_BOUNDARY_FILE = "mumbai-wards-map.kml"
+
 
 # Approximate bounding box used for fallback
 MUMBAI_BBOX = (72.77, 18.89, 73.0, 19.28)
